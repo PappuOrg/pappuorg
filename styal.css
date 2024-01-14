@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aqua;
+}
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
